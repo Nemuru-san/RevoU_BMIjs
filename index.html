@@ -25,7 +25,8 @@
 						name="nama"
 						id="nama"
 						placeholder="Nama kamu"
-						pattern="^[a-zA-Z]+$" />
+						pattern="^[a-zA-Z]+$"
+						required />
 				</div>
 				<!-- radio -->
 				<div class="jenisKelamin">
@@ -36,7 +37,8 @@
 								type="radio"
 								name="gender"
 								id="pria"
-								value="Pria" />
+								value="Pria"
+								required />
 							<label for="pria">Pria</label>
 						</div>
 						<div class="wanita">
@@ -44,7 +46,8 @@
 								type="radio"
 								name="gender"
 								id="wanita"
-								value="Wanita" />
+								value="Wanita"
+								required />
 							<label for="wanita">Wanita</label>
 						</div>
 					</div>
@@ -60,7 +63,8 @@
 							id="tinggi"
 							min="0"
 							placeholder="Tinggi badan kamu"
-							class="tinggiBadan" />
+							class="tinggiBadan"
+							required />
 					</div>
 
 					<div class="berat">
@@ -70,7 +74,8 @@
 							name="berat"
 							id="berat"
 							min="0"
-							placeholder="Berat badan kamu" />
+							placeholder="Berat badan kamu"
+							required />
 					</div>
 				</div>
 			</form>
@@ -83,9 +88,18 @@
 
 				<div class="hasil">
 					<h1>Hasil Perhitungan Index BMI</h1>
-					<div id="outputNama"></div>
-					<div id="gender"></div>
-					<div id="hasilIndex"></div>
+					<div id="outputNama">
+						<!-- <span>Nama : John Doe</span> -->
+					</div>
+					<div id="gender">
+						<!-- <span>Jenis kelamin : Wanita</span> -->
+					</div>
+					<div
+						id="hasilIndex"
+						class="hasilIndex">
+						<!-- <p>3.5</p>
+						<span>Kamu Kegemukan</span> -->
+					</div>
 				</div>
 			</div>
 		</div>

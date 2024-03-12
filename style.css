@@ -164,8 +164,61 @@ input::-webkit-inner-spin-button {
 	margin: 0;
 }
 
+// edit dari js
 .userNama {
-	color: red;
+	font-weight: 500;
+}
+
+.kurus {
+	font-weight: 700;
+	font-size: 16px;
+	color: rgb(253, 104, 104);
+}
+
+.ketKurus {
+	font-weight: 900;
+	font-size: 20px;
+	color: rgb(253, 104, 104);
+	text-align: center;
+}
+
+.normal {
+	font-weight: 700;
+	font-size: 16px;
+	color: rgb(0, 255, 0);
+	text-align: center;
+}
+
+.ketNormal {
+	font-weight: 900;
+	font-size: 20;
+	color: rgb(0, 255, 0);
+}
+
+.gemuk {
+	font-weight: 700;
+	font-size: 16px;
+	color: rgba(190, 190, 67, 0.93);
+	text-align: center;
+}
+
+.ketGemuk {
+	font-weight: 900;
+	font-size: 20;
+	color: rgba(190, 190, 67, 0.93);
+}
+
+.obesitas {
+	font-weight: 700;
+	font-size: 16px;
+	color: rgb(255, 10, 10);
+	text-align: center;
+}
+
+.ketObesitaas {
+	font-weight: 900;
+	font-size: 20;
+	color: rgb(255, 10, 10);
 }
 
 .hasil {
@@ -173,10 +226,19 @@ input::-webkit-inner-spin-button {
 	border-radius: 20px;
 	margin-top: 20px;
 	padding: 20px;
+	text-align: center;
 }
 
 .hasil h1 {
 	text-align: center;
+	margin-bottom: 10px;
+}
+
+.hasilIndex {
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(255, 204, 102, 0.69);
+	padding: 10px 0;
+	border-radius: 20px;
 }
 
 @media (min-width: 768px) {
