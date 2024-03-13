@@ -246,6 +246,14 @@ input::-webkit-inner-spin-button {
 	border-radius: 20px;
 }
 
+.footer {
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #c58b3d;
+}
+
 @media (min-width: 768px) {
 	.bmiHasil {
 		width: 70%;
