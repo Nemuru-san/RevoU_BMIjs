@@ -221,6 +221,11 @@ input::-webkit-inner-spin-button {
 	color: rgb(255, 10, 10);
 }
 
+.isu {
+	color: rgb(236, 123, 123);
+	font-size: 12px;
+}
+
 .hasil {
 	border: 2px solid #c58b3d;
 	border-radius: 20px;

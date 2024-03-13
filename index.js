@@ -7,6 +7,23 @@ function CalculateBMI() {
 	let tinggiBadan = document.querySelector('#tinggi').value;
 	let beratBadan = document.querySelector('#berat').value;
 
+	tinggiBadan.value = '';
+	beratBadan.value = '';
+
+	if (
+		isNaN(tinggiBadan) ||
+		isNaN(beratBadan) ||
+		tinggiBadan == 0 ||
+		beratBadan == 0
+	) {
+		document.querySelector(
+			'#peringatan'
+		).innerHTML = `					<span class="isu">Masukkan input dengan benar!!</span>`;
+		location.reload();
+
+		return false;
+	}
+
 	let namaUser = document.querySelector('#nama').value;
 	console.log(namaUser);
 
@@ -27,7 +44,7 @@ function CalculateBMI() {
             </span>
         `;
 		hasilGender.innerHTML = `
-            <p>Gender anda: ${genderUser}</p>
+            <p>Gender kamu: ${genderUser}</p>
         `;
 		hasil.innerHTML = `
             <p class="kurus">${BMI}</p>

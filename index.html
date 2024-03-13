@@ -14,7 +14,7 @@
 		<h1 class="judul">BMI Calculator Javascript</h1>
 
 		<div class="container">
-			<form
+			<div
 				action=""
 				class="editForm">
 				<!-- username -->
@@ -78,14 +78,17 @@
 							required />
 					</div>
 				</div>
-			</form>
-			<div class="bmiHasil">
+				<div id="peringatan"></div>
+
 				<button
 					class="tombolHitung"
-					id="tombolHitung">
+					id="tombolHitung"
+					type="submit"
+					value="Hitung">
 					Hitung
 				</button>
-
+			</div>
+			<div class="bmiHasil">
 				<div class="hasil">
 					<h1>Hasil Perhitungan Index BMI</h1>
 					<div id="outputNama">
